@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #f4f4f4; */
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(131,43,123,1) 25%, rgba(0,212,255,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+.business-card {
+    background-color: #ffffff;
+    width: 700px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+.name {
+    font-size: 24px;
+    color: darkblue;
+    margin-top: 50px;
+}
+.title {
+    font-size: 18px;
+    color: darkslateblue;
+   
+}
+.details {
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.details strong {
+    display: block;
+    margin-bottom: 5px;
+}
+.details a {
+    color: #007BFF;
+    text-decoration: none;
+}
+.details a:hover {
+    text-decoration: underline;
+}
+.bank-details {
+    margin-top: 20px;
+}
+.icon {
+    margin-right: 10px;
+}
+.contact-icons {
+    margin: 20px 0;
+}
+.contact-icons i {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #007BFF;
+}
